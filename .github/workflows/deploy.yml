@@ -30,4 +30,4 @@ jobs:
             cd ~/deploy
             docker build -t mysite .
             docker stop mysite || true && docker rm mysite || true
-          docker run -d --name mysite -p 80:80 mysite
+            docker run -d --name mysite -p 80:80 mysite
